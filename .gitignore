@@ -1,0 +1,94 @@
+# Laravel Framework Defaults
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.env.*.local
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Database files (privacy - contains user data)
+/database/*.sqlite
+/database/*.sqlite-journal
+/database/*.db
+/database/*.sql
+
+# Storage files (uploaded content, privacy concern)
+/storage/app/public/*
+!/storage/app/public/.gitkeep
+/storage/app/private/*
+!/storage/app/private/.gitkeep
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# All markdown documentation files (excluding vendor which is already ignored)
+*.md
+!vendor/**/*.md
+
+# Deployment and utility scripts (may contain paths or sensitive info)
+deploy-to-aws.sh
+create-placeholder-images.php
+*.sh
+!vendor/**/*.sh
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.cache
+*.bak
+*.backup
+*.old
+
+# IDE and editor files
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Package manager files
+yarn.lock
+.pnpm-debug.log
+# Note: package-lock.json should be committed for version consistency
+
+# Compiled assets (should be built on server)
+/public/build/*
+/public/mix-manifest.json
