@@ -51,6 +51,12 @@ Thumbs.db
 *.md
 !vendor/**/*.md
 
+# Demo and documentation files
+DEMO_*.md
+DEMO_*.txt
+DEMO_PRESENTATION_GUIDE.md
+DEMO_GUIDE_CN.md
+
 # Deployment and utility scripts (may contain paths or sensitive info)
 deploy-to-aws.sh
 create-placeholder-images.php
